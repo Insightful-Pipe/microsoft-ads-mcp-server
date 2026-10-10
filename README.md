@@ -72,7 +72,7 @@ When Cursor shows **Needs authentication**, click **Connect** and sign in to Ins
 
 ## Available Actions
 
-88 actions: 34 read, 54 write.
+90 actions: 34 read, 56 write.
 
 ### Read Actions (34)
 
@@ -118,10 +118,10 @@ When Cursor shows **Needs authentication**, click **Connect** and sign in to Ins
 
 </details>
 
-### Write Actions (54)
+### Write Actions (56)
 
 <details>
-<summary>Show all 54 write actions</summary>
+<summary>Show all 56 write actions</summary>
 
 | Action | Description |
 |--------|-------------|
@@ -154,6 +154,8 @@ When Cursor shows **Needs authentication**, click **Connect** and sign in to Ins
 | `apply_offline_conversions` | Submit offline conversion data |
 | `apply_product_partition_actions` | Apply add/update/delete actions to product partition nodes in a Shopping campaign |
 | `delete_keywords` | Delete keywords from an ad group |
+| `delete_list_items_from_shared_list` | Remove individual negative keywords, by list item id, from a shared list without touching the list or its associations |
+| `delete_negative_keywords_from_entities` | Remove specific negative keywords, by id, from campaigns or ad groups |
 | `set_account_properties` | Set account-level properties (auto-tagging, tracking templates, etc.) |
 | `set_ad_extension_associations` | Associate ad extensions with campaigns or ad groups |
 | `set_label_associations` | Associate labels with campaigns, ad groups, ads, or keywords |
